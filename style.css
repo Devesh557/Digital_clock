@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background-image: url("./Safeimagekit-resized-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100vh;  
+    flex-direction: column;
+}
+
+#clock{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* backdrop-filter: blur(2px);
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsla(32, 46%, 34%, 0.123); */
+}
+#day{
+    font-size: 100px;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: antiquewhite;
+}
+.rewrite{
+    color: red;
+}
+#date{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* backdrop-filter: blur(2px);
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsla(32, 46%, 34%, 0.123); */
+}
+.container{
+    backdrop-filter: blur(2px);
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsla(32, 46%, 34%, 0.123);
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+}
